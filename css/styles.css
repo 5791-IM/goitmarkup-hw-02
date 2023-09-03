@@ -45,9 +45,11 @@ body {
     color: var(--ocean, #404BBF);
     font-family: inherit;
 }
-
-.header-link-address {
+.header-address-container {
     font-style: normal;
+}
+.header-link-address { 
+     font-style: normal;
     font-family: inherit;
     color: var(--slate, #434455);
     line-height: 1.5;
@@ -78,7 +80,7 @@ body {
     color: var(--white, #FFF);
     cursor: pointer;
     background: var(--iris, #4D5AE5);
-    
+
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -120,6 +122,9 @@ body {
 /* End Advantage section */
 
 /* Start Our team section */
+.our-team-section-list {
+    background: var(--white, #FFF);
+}
 .our-team-section {
     background: var(--cloud, #F4F4FD);
 }
