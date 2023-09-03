@@ -81,11 +81,13 @@ body {
     border-radius: 4px;
     color: var(--white, #FFF);
     font-family: inherit;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
     background: var(--ocean, #404BBF);
 }
 
@@ -105,6 +107,7 @@ body {
     overflow: hidden;
 }
 .advantage-title { 
+    color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -122,6 +125,7 @@ body {
     background: var(--cloud, #F4F4FD);
 }
 .our-team-title {
+    color: var(--navyblue, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -130,6 +134,7 @@ body {
     text-transform: capitalize;
 }
 .our-team-subhead {
+    color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -144,6 +149,7 @@ body {
 
 /* Start Our Portfolio section */
 .our-portfolio-title {
+        color: var(--navyblue, #2E2F42);
         text-align: center;
         font-size: 36px;
         font-weight: 700;
@@ -152,6 +158,7 @@ body {
         text-transform: capitalize;
 }
 .our-portfolio-subhead {
+    color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
