@@ -46,15 +46,15 @@ body {
     font-family: inherit;
 }
 
-.address {
+.header-link-address {
     font-style: normal;
     font-family: inherit;
     color: var(--slate, #434455);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.address:hover,
-.address:focus {
+.header-link-address:hover,
+.header-link-address:focus {
     color: var(--ocean, #404BBF);
 
 }
@@ -75,11 +75,10 @@ body {
     letter-spacing: 0.02em;
 }
 .button{
+    color: var(--white, #FFF);
     cursor: pointer;
     background: var(--iris, #4D5AE5);
-    padding: 16px 32px;
-    border-radius: 4px;
-    color: var(--white, #FFF);
+    
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
