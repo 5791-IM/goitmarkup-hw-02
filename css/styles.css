@@ -49,7 +49,7 @@ body {
     font-style: normal;
 }
 .header-link-address { 
-     font-style: normal;
+    font-style: normal;
     font-family: inherit;
     color: var(--slate, #434455);
     line-height: 1.5;
@@ -77,10 +77,11 @@ body {
     letter-spacing: 0.02em;
 }
 .button{
-    color: var(--white, #FFF);
     cursor: pointer;
-    background: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
 
+    background: var(--iris, #4D5AE5);
+    
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -95,18 +96,7 @@ body {
 /* End Hero section */
 
 /* Start Advantage section */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 .advantage-title { 
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
